@@ -4,22 +4,22 @@ const CONFIG = {
     name: "woosookyoung",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
+    bio: "노오력 하는 개발자",
+    email: "dev.sookyoung2005@gmail.com",
     github: "sookyoungwoo",
     instagram: "",
     linkedin: '',
   },
   projects: [
     {
-      name: `개발새발`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `심청이`,
+      href: "https://www.simblue.kro.kr/",
     },
   ],
   // blog setting (required)
   blog: {
     title: "우수경",
-    description: "우수경임니당",
+    description: "성장",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
@@ -29,7 +29,7 @@ const CONFIG = {
   lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ["Blog", "Website", "Notion"],
+    keywords: ["우수경", "woosoo", "sookyoung"],
   },
 
   // notion configuration (required)
