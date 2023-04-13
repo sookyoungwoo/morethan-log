@@ -34,20 +34,20 @@ const CONFIG = {
 
   // notion configuration (required)
   notionConfig: {
-    pageId: "a4e09b0963da4a50b90ed6e7ff584421",
+    pageId: process.env.NOTION_PAGE_ID,
   },
 
   // plugin configuration (optional)
   googleAnalytics: {
     enable: false,
     config: {
-      measurementId: process.env.GOOGLE_MEASUREMENT_ID || "",
+      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
   },
   googleSearchConsole: {
     enable: false,
     config: {
-      siteVerification: process.env.GOOGLE_SITE_VERIFICATION || "",
+      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
   },
   utterances: {
