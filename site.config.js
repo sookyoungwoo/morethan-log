@@ -1,4 +1,4 @@
-const CONFIG = {
+const CONFIG = { 
   // profile setting (required)
   profile: {
     name: "woosookyoung",
